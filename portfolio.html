@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a class="header-logo" href="index.html"
+        ><span class="header-logo-span">Web</span>Studio</a
+      >
+      <nav class="navigation">
+        <ul class="navigation-link">
+          <li><a class="nav-item" href="#">Agencja</a></li>
+          <li><a class="nav-item" href="portfolio.html">Portfolio</a></li>
+          <li><a class="nav-item" href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <ul class="navigation-contact">
+        <li><a class="nav-contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="nav-contact-item" href="tel:+48111111111">+48 111 111 111</a></li>
+      </ul>
+    </header>
+    <main>
+      <div>
+        <ul class="btn-list">
+          <li>
+            <button class="btn-portfolio" type="button">Wszystkie</button>
+          </li>
+          <li>
+            <button class="btn-portfolio" type="button">Strony</button>
+          </li>
+          <li>
+            <button class="btn-portfolio" type="button">Aplikacje</button>
+          </li>
+          <li>
+            <button class="btn-portfolio" type="button">Dizajn</button>
+          </li>
+          <li>
+            <button class="btn-portfolio" type="button">Marketing</button>
+          </li>
+        </ul>
+      </div>
+      <section>
+        <!-- Dodałem ukryty h2, ponieważ wg semantyki ma być, 
+              poza tym w walidatorze warn wyskakiwał -->
+        <h2 hidden>Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p1.jpg"
+                alt="Widok laptopa"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Technocrack</h3>
+              <p class="portfolio-type">Strona internetowa</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p2.jpg"
+                alt="dwóch koszykarzy"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Grafika New Orlean vs Golden Star</h3>
+              <p class="portfolio-type">Dizajn</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item>">
+            <div>
+              <img
+                src="images/Portfolio/p3.jpg"
+                alt="Logo restauracji seafood"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Restauracja Seafood</h3>
+              <p class="portfolio-type">Aplikacja</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p4.jpg"
+                alt="słuchawki nauszne"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Projekt Prime</h3>
+              <p class="portfolio-type">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p5.jpg"
+                alt="dwa pudełka"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Projekt Boxes</h3>
+              <p class="portfolio-type">Aplikacja</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p6.jpg"
+                alt="monitor"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Inspiration has no Borders</h3>
+              <p class="portfolio-type">Strona internetowa</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p7.jpg"
+                alt="otwarta książka"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Magazyn Limited Edition</h3>
+              <p class="portfolio-type">Dizajn</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p8.jpg"
+                alt="etykieta"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Projekt LAB</h3>
+              <p class="portfolio-type">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <div>
+              <img
+                src="images/Portfolio/p9.jpg"
+                alt="laptop, ręce na klawiaturze"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-name">Growing Business</h3>
+              <p class="portfolio-type">Aplikacja</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="header-logo" href="index.html"
+        ><span class="header-logo-span">Web</span>Studio</a
+      >
+      <address>
+        <ul class="address-list">
+          <li>
+            <a class="footer-address" href="https://goo.gl/maps/YwHhhAUswpMVMqqY7"
+              >m. Warszawa, Aleje Jerozolimskie 21
+            </a>
+          </li>
+          <li>
+            <a class="nav-contact-item" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li>
+            <a class="nav-contact-item" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
